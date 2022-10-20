@@ -1,0 +1,71 @@
+body {
+  background-color: rgba(0, 0, 0, 0.781);
+}
+
+#container {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 7px;
+}
+
+form {
+  margin-bottom: 30px;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 40px;
+}
+
+#inputText {
+  width: 80%;
+  height: 30px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+#inputSubmit {
+  border: none;
+  border-radius: 10px;
+  height: 30px;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.cases {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 15px;
+  /* word-wrap: break-word; */
+  box-shadow: 4px 4px 14px rgba(16, 96, 224, 0.375);
+  border-radius: 10px;
+  min-height: 70px;
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 100;
+  background-color: white;
+}
+
+h1 {
+  width: 50%;
+}
+
+button {
+  box-sizing: border-box;
+  height: 50px;
+  width: 50px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.check {
+  width: 10%;
+}
